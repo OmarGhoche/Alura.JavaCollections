@@ -1,0 +1,7 @@
+package br.com.omar;
+
+import java.util.Comparator;
+
+public class OrdenaPorIdade implements Comparator<Funcionario> {
+
+}

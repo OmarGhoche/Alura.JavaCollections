@@ -1,0 +1,13 @@
+package br.com.alura;
+
+public class TestaCurso {
+
+	public static void main(String[] args) {
+		
+		Curso python1 = new Curso("introdução ao Python 3", "Omar Ghoche");
+		
+		System.out.println(python1.getAulas());
+
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/omarion111/Downloads/java-collections-aula3/.metadata/.plugins/org.eclipse.jdt.core
+1187294253.index
+2616958678.index
+1120758464.index

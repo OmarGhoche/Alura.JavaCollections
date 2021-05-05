@@ -1,0 +1,26 @@
+package br.com.alura;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteMatriculaDeAlunos {
+
+	public static void main(String[] args) {
+		
+		Curso padeiro = new Curso("pães franceses", "Omar Ghoche");
+		
+		padeiro.adiciona(new Aula("Massas", 40));
+		padeiro.adiciona(new Aula("Fermentos", 50));
+		padeiro.adiciona(new Aula("Geleias", 40));
+		
+		padeiro.matricula(new Aluno("Jose", 34556));
+		padeiro.matricula(new Aluno("Marta", 956835));
+		padeiro.matricula(new Aluno("Lakshmi", 0));
+		
+		System.out.println(padeiro.getAlunos());
+		System.out.println(padeiro.getAulas());
+		System.out.println(padeiro.getTempoTotal());
+
+	}
+
+}
